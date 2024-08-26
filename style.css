@@ -91,69 +91,24 @@ nav a:hover {
 .card-details p:first-child {
     font-weight: bold;
 }
-
-footer {
-    background-color: #04080F;
-    color: #DAE3E5;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+/* Delete button styling */
+.delete-btn {
+    background-color: #FF5C5C;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
-.footer-column {
-    width: 20%;
-    margin: 10px 0;
-    min-width: 150px; /* Ensure footer columns don't get too narrow on small screens */
+.delete-btn:hover {
+    background-color: #E04848;
 }
 
-.footer-column h3 {
-    color: #507DBC;
-    margin-bottom: 10px;
-}
-
-.footer-column a {
-    display: block;
-    color: #DAE3E5;
-    text-decoration: none;
-    padding: 5px 0;
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
-
-.footer-column a:hover {
-    text-decoration: none;
-    color: #A1C6EA;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    nav a {
-        margin: 0 10px;
-        font-size: 14px;
-    }
-
-    .card {
-        width: 100%;
-        max-width: 350px;
-    }
-
-    .footer-column {
-        width: 45%;
-    }
-}
-
-@media (max-width: 480px) {
-    nav a {
-        margin: 0 5px;
-        font-size: 12px;
-    }
-
-    .footer-column {
-        width: 100%;
-        text-align: center;
-    }
-}
 /* Add (+) card styling */
 .add-card {
     background-color: #A1C6EA;
@@ -245,4 +200,67 @@ footer {
 
 .modal-content button:hover {
     background-color: #406da4;
+}
+
+footer {
+    background-color: #04080F;
+    color: #DAE3E5;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    width: 20%;
+    margin: 10px 0;
+    min-width: 150px; /* Ensure footer columns don't get too narrow on small screens */
+}
+
+.footer-column h3 {
+    color: #507DBC;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    display: block;
+    color: #DAE3E5;
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    text-decoration: none;
+    color: #A1C6EA;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .footer-column {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        margin: 0 5px;
+        font-size: 12px;
+    }
+
+    .footer-column {
+        width: 100%;
+        text-align: center;
+    }
 }
