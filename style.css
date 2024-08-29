@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #507DBC;
+    background-color: #6B8F71;
     color: #DAE3E5;
     text-align: center;
     padding: 20px 0;
@@ -29,13 +29,13 @@ nav a {
 nav a:hover {
     text-decoration: none;
     color: #04080F;
-    background-color: #A1C6EA;
+    background-color: #AAD2BA;
 }
 
 .content {
     padding: 20px;
     overflow-y: auto;
-    background-color: #BBD1EA;
+    background-color: #D9FFF5;
     min-height: calc(100vh - 80px); /* Adjusted to account for header height */
     box-sizing: border-box;
 }
@@ -49,7 +49,7 @@ nav a:hover {
 }
 
 .card {
-    background-color: #507DBC;
+    background-color: #6B8F71;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -111,18 +111,18 @@ nav a:hover {
 
 /* Add (+) card styling */
 .add-card {
-    background-color: #A1C6EA;
+    background-color: #B9F5D8;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    color: #507DBC;
+    color: #AAD2BA;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .add-card:hover {
-    background-color: #89B3DB;
+    background-color: #D9FFF5;
 }
 
 /* Add (+) icon */
